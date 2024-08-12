@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css, и прочее">
+    <meta name="diskription" content="Тест по базовому курсу">
+    <title>Константин</title> <!--надпись на вкладке-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- ***  html mdn   -  документация -->
+<!-- https://drive.google.com/drive/folders/1vJQBY06J5tbZpC-K3CvJzYnCz609uEAQ -->
+<!-- shift + alt + F   выровнять код -->
+<!-- распознание текста win + shift + E   -->
+
+<body>
+    <div class="container">
+
+        <div class="info">
+            <img src="ava.jpeg" class="avatar" width="200" alt="ошибка локальной картинки">
+            <div class="info_1">
+                <h1>Константин</h1>
+                <!--<br>-->
+                <!-- Lorem30   рандомный текст-->
+                <!-- <p>Меня зовут <strong>Константин.</strong> мне нравиться заниматься <em>програмированием.</em> Вот мои соцсети:</p> -->
+                <p><strong>Википе́дия</strong>— общедоступная многоязычная универсальная интернет-энциклопедия со
+                    свободным контентом, реализованная на принципах вики. Википедия является международным проектом,
+                    который
+                    состоит из разделов на разных языках, объединённых общими принципами.</p>
+                <!--<hr color="#567" size="10px">-->
+            </div>
+        </div>
+        <div class="card kontact">
+            <h2>Cоциальные сети:</h2>
+            <!--<p></p> - разделяет текст-->
+            <a class="link" href="https://google.com" target="_blank">Google</a> |
+            <a class="link" href="https://ya.ru/" target="_blank">Яндекс</a> |
+            <a class="link" href="Https://vk.com" target="_blank">ВК</a>
+        </div>
+
+        <div class="card hobbe">
+            <h2>Мои хобби</h2>
+            <ul>
+                <li>Путешествия</li>
+                <li>Програмирование</li>
+                <li>Ходьба</li>
+                <li>Спорт зал</li>
+            </ul>
+        </div>
+        <div class="card work">
+            <h2>Опыт работы</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>KFC</td>
+                        <td>курьер</td>
+                        <td>1999</td>
+                    </tr>
+                    <tr>
+                        <td>школа</td>
+                        <td>Ученик</td>
+                        <td>1930 - 1940</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card conekted">
+            <h2>Связаться со мной</h2>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <div class="margin-bottom">
+                        <Label for="text">Ваше имя:</Label>
+                        <input type="text" id="text" placeholder="Введите имя">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="margin-bottom">
+                        <Label for="email">Ваша почта:</Label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="margin-bottom">
+                        <Label for="message">Ваше сообщение:</Label>
+                        <br>
+                        <textarea id="message" cols="30" rows="10">Здравствуйте, меня зовут </textarea>
+                    </div>
+                </div>
+            </div>
+
+            <input type="submit" class="btn" value="Отправить">
+        </div>
+    </div>
+</body>
+
+</html>
